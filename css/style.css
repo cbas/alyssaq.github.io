@@ -217,12 +217,16 @@ body,
 }
 ::selection {
   color: #fff;
-  background: #3b8dbd;
+  background: #800000;
 }
 body {
-  background: #eaeaea;
+  background: #7a201f;
   font: 14px "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
   -webkit-text-size-adjust: 100%;
+  background-image: -webkit-repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -webkit-repeating-linear-gradient(325deg, transparent, transparent 2px, rgba(0,0,0,0.2) 2px, rgba(0,0,0,0.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,0.2) 5px);
+  background-image: -moz-repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -moz-repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -moz-repeating-linear-gradient(325deg, transparent, transparent 2px, rgba(0,0,0,0.2) 2px, rgba(0,0,0,0.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,0.2) 5px);
+  background-image: -ms-repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -ms-repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), -ms-repeating-linear-gradient(325deg, transparent, transparent 2px, rgba(0,0,0,0.2) 2px, rgba(0,0,0,0.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,0.2) 5px);
+  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,0.4) 50px, rgba(0,0,0,0.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,0.4) 63px, rgba(0,0,0,0.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,0.5) 116px, rgba(0,0,0,0.5) 166px, rgba(255,255,255,0.2) 166px, rgba(255,255,255,0.2) 169px, rgba(0,0,0,0.5) 169px, rgba(0,0,0,0.5) 179px, rgba(255,255,255,0.2) 179px, rgba(255,255,255,0.2) 182px, rgba(0,0,0,0.5) 182px, rgba(0,0,0,0.5) 232px, transparent 232px), repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,0.2) 2px, rgba(0,0,0,0.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,0.2) 5px);
 }
 .container {
   position: relative;
@@ -532,7 +536,7 @@ body {
   display: none;
 }
 #sidebar .sidebar-top {
-  background: #3b8dbd;
+  background: #800000;
   padding: 15px 30px;
 }
 #sidebar .sidebar-top:before,
@@ -652,7 +656,7 @@ body {
   background: rgba(0,0,0,0.02);
 }
 .article-nav-link-wrap:hover .icon {
-  color: #3b8dbd;
+  color: #800000;
 }
 .article-nav-caption {
   display: block;
@@ -829,7 +833,7 @@ body {
 }
 #recent-post li .item-inner a a,
 #recent-post li .item-inner .item-category a {
-  color: #3b8dbd;
+  color: #800000;
 }
 #recent-post li .item-inner a a:hover,
 #recent-post li .item-inner .item-category a:hover {
@@ -860,7 +864,7 @@ body {
   opacity: 0.8;
 }
 #recent-post li:hover .item-title a {
-  color: #3b8dbd;
+  color: #800000;
 }
 .category-list-count,
 .tag-list-count,
@@ -937,7 +941,7 @@ body {
 }
 .article-summary a {
   text-decoration: none;
-  color: #3b8dbd;
+  color: #800000;
 }
 .article-summary .article-summary-inner {
   margin-right: 30px;
@@ -1000,7 +1004,7 @@ body {
   opacity: 0.7;
 }
 .article-summary:hover .article-title a {
-  color: #3b8dbd;
+  color: #800000;
 }
 .article-category {
   float: left;
@@ -1025,7 +1029,7 @@ body {
   margin-bottom: 10px;
 }
 a.article-title:hover {
-  color: #3b8dbd;
+  color: #800000;
 }
 .article-byline {
   margin-bottom: 10px;
@@ -1066,7 +1070,7 @@ a.article-title:hover {
   margin: 1.3em 0;
 }
 .article-entry a {
-  color: #3b8dbd;
+  color: #800000;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -1163,16 +1167,16 @@ a.article-title:hover {
   padding: 6px 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-  background: #eaeaea;
+  background: #7a201f;
   color: #aaa;
   text-shadow: 0 1px #fff;
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #3b8dbd;
+  background: #800000;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #2f7197;
+  text-shadow: 0 1px #600;
 }
 .article-footer {
   font-size: 14px;
@@ -1246,7 +1250,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #eaeaea;
+  background: #7a201f;
 }
 .article-share-links:before,
 .article-share-links:after {
@@ -1339,7 +1343,7 @@ a.article-title:hover {
   padding: 30px 30px 20px;
 }
 #comments a {
-  color: #3b8dbd;
+  color: #800000;
 }
 .archives-wrap {
   margin: block-margin 0;
@@ -1395,7 +1399,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #3b8dbd;
+  color: #800000;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1438,7 +1442,7 @@ a.article-title:hover {
 }
 #page-nav .page-number,
 #page-nav .extend {
-  color: #3b8dbd;
+  color: #800000;
   position: relative;
   overflow: hidden;
   font-size: 16px;
@@ -1461,7 +1465,7 @@ a.article-title:hover {
 #page-nav .page-number.current,
 #page-nav .extend.current {
   color: #444;
-  border-bottom: 3px solid #3b8dbd;
+  border-bottom: 3px solid #800000;
   border-top: 1px solid #f1f1f1;
 }
 #page-nav .space {
@@ -1484,7 +1488,7 @@ a.article-title:hover {
   padding: 30px;
 }
 #footer #back-to-top {
-  background: #eaeaea;
+  background: #7a201f;
   color: #777;
   overflow: hidden;
   text-align: center;
@@ -1534,7 +1538,7 @@ a.article-title:hover {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eaeaea;
+  background: #7a201f;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -1620,7 +1624,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #3b8dbd;
+  color: #800000;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1783,7 +1787,7 @@ i.icon:before {
     color: rgba(255,255,255,0.7);
     text-align: center;
     height: 50px;
-    background: #3b8dbd;
+    background: #800000;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
